@@ -74,7 +74,7 @@ class PT2258:
         :param write_data: The instruction data to be written to PT2258.
         :type write_data: int
         :raises RuntimeError: If communication with PT2258 fails.
-        :return: acknowledgment
+        :return: acknowledgment from slave (PT2258)
         """
         try:
             # Try to write the instruction data to the PT2258 via I2C.
